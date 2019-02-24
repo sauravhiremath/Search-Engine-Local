@@ -1,0 +1,19 @@
+############################################################################################
+#   Index-Build-Single-Threaded
+############################################################################################
+
+Without stop-words and stemming
+* idf creation for test files ---- 2.406876908s --- 968.5 KB
+* totalIndex creation for test files --- 3.944290076s --- 20.3 MB
+
+Without stemming
+* idf creation for test files (stopwords removed) ---- 2.3499021730000003s --- 965.2 KB
+* totalIndex creation for test files (stopwords removed) --- 3.313863951s --- 15.5 MB
+
+Without Pickling
+* idf creation for test files (stopwords removed and stemming done) ---- 12.106636919s --- 569.6 KB
+* totalIndex creation for test files (stopwords removed and stemming done) --- 13.049085911s --- 12.0 MB
+
+With everything
+* idf creation for test files (stopwords removed and stemming done and pickling) ---- 12.327747757s --- 484.1 KB
+* totalIndex creation for test files (stopwords removed and stemming done and pickling) --- 12.208316966s --- 2.8 MB
